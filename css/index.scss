@@ -15,33 +15,21 @@ $very-light-gray: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
 }
 
-html {
+html, body, main {
     height: 100%;
-    background-color: blueviolet;
 }
-
-body {
-    height: 100%;
-
-    background-color: red;
-}
-
-// main {
-//     height: 100%;
-//     background-color: aquamarine;
-// }
 
 .container {
     height: 100%;
-    // background-color: $very-light-gray;
-    background-color: bisque;
+    background-color: $very-light-gray;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: auto;
 
     & div {
-        width: 300px;
+        width: 308px;
+        min-width: 300px;
         height: 500px;
         padding: 50px;
     }
@@ -78,24 +66,24 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 2.6em;
     text-transform: uppercase;
-    color: $transparent-white;
+    color: $very-light-gray;
     margin: 30px 0;
 }
 
 .description {
-    color: $very-light-gray;
-    line-height: 1.6;
-    height: 200px;
+    color: $transparent-white;
+    line-height: 1.7;
+    height: 210px;
 }
 
 .btn {
-    width: 140px;
-    height: 44px;
+    width: 150px;
+    height: 48px;
     border-radius: 25px;
     border: none;
 }
 
-@media all and (max-width:700px){
+@media all and (max-width:375px){
     .container{
         flex-direction: column;
         justify-content: flex-start;
