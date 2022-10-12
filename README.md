@@ -18,7 +18,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: https://github.com/mstu26/3-column-card
-- Live Site URL: https://harmonious-dasik-88c066.netlify.app/
+- Live Site URL: https://darling-swan-4e8139.netlify.app/
 
 ## Author
 
